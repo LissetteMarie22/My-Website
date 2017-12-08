@@ -1,0 +1,93 @@
+@charset "utf-16";
+body{
+background-color:rgb(162, 183, 196);
+background-image:url("sunset.jpg");
+background-size:1920px 1080px;
+margin:auto;
+
+
+	
+}
+nav#worldMap ul{
+	display:-webkit-flex;
+	display:flex;
+	margin:10px;
+	-webkit-align-items:center;
+	align-items:center;
+	-webkit-justify-content:center;
+	justify-content:center;
+	-webkit-align-items: center;
+   align-items: center;
+   list-style-type:none;
+   background-color:rgb(162, 183, 196);
+   background:linear-gradient(rgb(51, 102, 153),rgb(255, 153, 0));
+   margin:0;
+   padding:0;
+   font-size: 30px;
+   height:40px;	
+}
+
+#bgColor{
+	color:black;
+	opacity:0.8;
+}
+nav#worldMap a{
+padding: 1rem 2rem;	
+color:white;
+font-weight:bold;
+margin-top:20px;
+margin-bottom:20px;	
+}
+
+
+
+
+h1{
+	text-align:center;
+	text-decoration:underline;
+	color:white;
+	
+}
+h2, h4, label{
+	color:white;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+p{
+font-size:18px;
+margin-left: 16px;
+margin-right: 16px;
+color:white;
+}
+table, th, td{
+	border: 1px solid black;
+	background:rgb(162, 183, 196);
+	font-weight:bold;
+	position: relative;
+	z-index:99;
+	
+}
+td{
+	color:white;
+}
+nput:focus,select:focus,textarea:focus{
+	background-color:rgb(245,245,140);	
+}
+input#fnBox:focus:valid,
+input#lnBox:focus:valid,
+input#addBox:focus:valid,
+input#mailBox:focus:valid,
+input#phoneBox:focus:valid,
+input#idBox:focus:valid {
+background:rgb(220,255,220) url(cg_valid.png) bottom right/contain no-repeat;	
+}
+#fnBox:focus:invalid,#lnBox:focus:invalid,#addBox:focus:invalid,#mailBox:focus:invalid,#phoneBox:focus:invalid,#idBox:focus:invalid{
+background:rgb(255,232,232)url(cg_invalid.png) bottom right/contain no-repeat;	
+}
+input, select, textarea{
+	background-color: white;
+}
+
+
+
